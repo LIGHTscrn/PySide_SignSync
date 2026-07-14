@@ -1,0 +1,9 @@
+1. Sign vrseSign vrse focuses on real-time, interactive, and highly customisable sign language translation. It uses advanced 3D character animation driven by artificial intelligence.Core CapabilitiesLive Translation: Converts spoken word or text inputs into immediate sign language movement.Interactive 3D Avatars:
+Uses digital characters that users can adjust for angle, zoom, and clothing. This helps visibility and user comfort.Multi-Platform Focus: Targets digital environments, including web ecosystems, virtual spaces, and remote meetings.How It DeployWebExtension (Terp): Injects a
+floating 3D avatar overlay directly onto desktop browsers. This translates web content and streaming videos on the fly.Web App Architecture: Runs inside desktop browsers to avoid heavy local installations. This uses cloud rendering to keep performance fast.
+
+2. Signapse AISignapse AI focuses on photo-realistic, high-fidelity sign language video generation. It aims to make public transport, broadcasting, and corporate media more accessible.Core CapabilitiesPhoto-Realistic Avatars: Uses deep learning to create signing avatars that look like real humans. This reduces the artificial
+feel of traditional 3D models.High-Speed Translation: Translates massive amounts of text into sign language videos in seconds.Broadcasting Accuracy: Built to handle complex sentence structures, grammar, and regional nuances of sign language.How It DeployWeb Integration Widgets: Adds directly
+to websites to provide an overlay translator for text content.API and Studio Software: Businesses use their web-based studio client on desktop systems to type scripts, generate signed videos, and download them for media use.
+
+3. SignKit
