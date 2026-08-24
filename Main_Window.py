@@ -20,16 +20,16 @@ class Main_Window(QMainWindow):
         play_button = QPushButton("Go")
 
         #Creating a WebEngineView
-        youtubePlayer = QWebEngineView()
+        self.youtubePlayer = QWebEngineView()
+        layout.addWidget(self.youtubePlayer)
 
         youtubeIframe = '''
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/oLxFqpUbaAE?si=vixAthV6v4bQBH20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oe1ySIpWZgo?si=xxmvHJfvC7Q7beIa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
         '''
-        youtubePlayer.setHtml(youtubeIframe, QUrl("https://www.youtube.com"))
+        self.youtubePlayer.setHtml(youtubeIframe, QUrl("https://www.youtube.com"))
         
         layout.addWidget(url_input)
         layout.addWidget(play_button)
-        layout.addWidget(youtubePlayer)
 
         topWidget.setLayout(layout)
         self.setCentralWidget(topWidget)
