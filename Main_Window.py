@@ -2,6 +2,8 @@ from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QLineEdit,
 
 from PySide6.QtWebEngineWidgets import QWebEngineView
 
+from PySide6.QtCore import QUrl
+
 
 class Main_Window(QMainWindow):
 
@@ -23,7 +25,7 @@ class Main_Window(QMainWindow):
         youtubeIframe = '''
         <iframe width="560" height="315" src="https://www.youtube.com/embed/oLxFqpUbaAE?si=vixAthV6v4bQBH20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
         '''
-        youtubePlayer.setHtml(youtubeIframe)
+        youtubePlayer.setHtml(youtubeIframe, QUrl("https://www.youtube.com"))
         
         layout.addWidget(url_input)
         layout.addWidget(play_button)
