@@ -1,1 +1,0 @@
-# PySide_SignSync
